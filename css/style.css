@@ -5,7 +5,7 @@
     font-size: 16px;
     --text-primary: #e0b296;
     --text-secondary: #E2BFB3;
-    --bg-primary: rgba(0, 0, 0, 0.150);
+    --bg-primary: #c9a792;
     --bg-secondary: #eee8db;
 }
 
@@ -57,6 +57,11 @@ footer{
 
 .sep{
     margin-right: auto ;
+}
+
+.logo:hover, .logo-text:hover{
+    transition: ease 0.3s;
+    color: var(--bg-secondary);
 }
 
 .profile{
@@ -156,6 +161,10 @@ h3{
 .media-element:hover{
     transition: ease 0.5s;
     opacity: 100%;
+    box-shadow: 10px 10px 10px -5px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 10px 10px 10px -5px rgba(0,0,0,0.5);
+    -moz-box-shadow: 10px 10px 10px -5px rgba(0,0,0,0.5);
+
 }
 
 
@@ -173,7 +182,8 @@ h3{
     grid-template-rows: min-content;
     gap: 1rem;
     grid-auto-flow: column;
-    grid-auto-columns: 23%;
+    grid-auto-columns: 23%; 
+    padding: 0 2rem 2rem;
 
     overflow-x: auto;
     overscroll-behavior-inline: contain;
@@ -215,7 +225,7 @@ h3{
 
 .nav-item:hover{
     transition: ease 0.3s;
-    border: var(--bg-secondary) solid 3px;
     color: var(--bg-secondary);
+    border: var(--bg-secondary) solid 3px;
     opacity: 100%;
 }
