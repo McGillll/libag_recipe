@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Madimi+One&family=Nunito:ital,wght@0,500;1,500&display=swap');
+
+
+:root{
+    font-size: 16px;
+    --text-primary: #e0b296;
+    --text-secondary: #E2BFB3;
+    --bg-primary: rgba(0, 0, 0, 0.150);
+    --bg-secondary: #eee8db;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('/img/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow: hidden;
+
+}
+
+header{ 
+    display: flex;
+    align-items: center;
+    border-bottom: rgba(0, 0, 0, 0.704) solid 3px;
+    border-radius: 10px;
+    background: #c9a792dd;
+    padding: 10px 20px 15px 20px;
+    justify-content: flex-end;
+    margin-bottom: 1rem;
+    
+}
+
+footer{
+    margin-top: auto;
+    display: flex;
+    align-items: flex-end;
+    border-top: rgba(0, 0, 0, 0.704) solid 3px;
+    border-radius: 10px;
+    background: #c9a792dd;
+    padding: 30px 0px 0px 0px;
+    height: 50px;
+}
+
+.logo{
+    margin: 0px 10px 0px 0px;
+    width: 40px;
+    height: 40px;
+}
+
+.logo-text{
+    font-family: 'Lilita One';
+    color: rgba(0, 0, 0, 0.704);
+    font-size: 30px;
+}
+
+.sep{
+    margin-right: auto ;
+}
+
+.profile{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.profile-text{
+    font-family: 'Nunito';
+    font-weight: bold;
+    font-size: small;
+    letter-spacing: 1px;
+    color: rgba(0, 0, 0, 0.704);
+}
+
+.text{
+    font-family: 'Nunito';
+    font-size: smaller;
+    letter-spacing: 1px;
+    color: rgba(0, 0, 0, 0.704);
+    text-align: justify;
+}
+
+#copyRight{
+    font-family: 'Nunito';
+    font-size: smaller;
+    letter-spacing: 1px;
+    color: rgba(0, 0, 0, 0.704);
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+    margin: 4px 0px 4px 0px;
+}
+
+#copyRightDiv{
+    width: 100%;
+    background: var(--bg-primary);
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    font-family: 'Lilita One';
+    color: rgba(0, 0, 0, 0.704);
+    margin: 0px;
+    font-size: 50px;
+    letter-spacing: 1px;
+}
+
+h3{
+    letter-spacing: 1px;
+    margin: 0px;
+    font-family: 'Lilita One';
+    color: rgba(0, 0, 0, 0.704);
+    text-align: center;
+}
+
+.flex, .flex-center, .flex-space, .flex-column{
+    display: flex;
+}
+
+.flex-center{
+    justify-content: center;
+}
+
+.flex-space{
+    justify-content: space-between;
+}
+
+.flex-align-end{
+    align-items: flex-end;
+}
+
+.flex-align-center{
+    align-items: center;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.media-element{
+    padding: 1rem;
+    background: #c9a792;
+    border-radius: 6px;
+    opacity: 75%;
+    transition: opacity 0.5s ease;
+}
+
+.media-element:hover{
+    transition: ease 0.5s;
+    opacity: 100%;
+}
+
+
+
+.media-element > img{
+    inline-size: 100%;
+    aspect-ratio: 16/9 ;
+    object-fit: cover;
+}
+
+.media-scroller{
+    margin-top: 3rem;
+    width: 75%;
+    display: grid;
+    grid-template-rows: min-content;
+    gap: 1rem;
+    grid-auto-flow: column;
+    grid-auto-columns: 23%;
+
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+}
+
+::-webkit-scrollbar {
+    width: 1px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: transparent; 
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: transparent; 
+}
+  
+.nav{
+    list-style: none;
+    display: flex;
+    font-family: 'Lilita One';
+}
+
+.nav-item{
+    border-radius: 6px;
+    border: rgba(0, 0, 0, 0.704) solid 3px;
+    background: #c9a792dd;
+    margin-left: 15px;
+    padding: .5rem;
+    color: rgba(0, 0, 0, 0.704);
+    opacity: 75%;
+    transition: opacity 0.5s ease;
+}
+
+.nav-item:hover{
+    transition: ease 0.3s;
+    border: var(--bg-secondary) solid 3px;
+    color: var(--bg-secondary);
+    opacity: 100%;
+}

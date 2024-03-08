@@ -1,0 +1,102 @@
+#side-panel{
+    display: grid;
+    grid-template-rows: min-content;
+    gap: 10px;
+    grid-auto-flow: row;
+    overflow-y: auto;
+    margin-right: 8rem;
+}
+
+.panel-element{
+    padding: 10px;
+    background: #c9a792;
+    border-radius: 6px;
+    opacity: 75%;
+    transition: opacity 0.5s ease;
+}
+
+.panel-element:hover{
+    transition: ease 0.5s;
+    opacity: 100%;
+}
+
+.panel-selected{
+    padding: 10px;
+    background: #c9a792;
+    border-radius: 6px;
+    opacity: 100%;
+}
+
+.text2{
+    font-family: 'Nunito';
+    font-size: 14.5px;
+    letter-spacing: 1px;
+    color: rgba(0, 0, 0,);
+    text-align: justify;
+}
+
+.side-img{
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+}
+
+.full-image{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+#head{
+    margin-bottom: 1.8rem;
+}
+
+#Proceedure{
+    height: fit-content;
+    width: fit-content;
+    border-radius: 6px;
+    border: rgba(0, 0, 0, 0.704) solid 3px;
+    background: #c9a792dd;
+}
+#Ingredients{
+    height: fit-content;
+    width: fit-content;
+    border-radius: 6px;
+    border: rgba(0, 0, 0, 0.704) solid 3px;
+    background: #c9a792dd;
+}
+
+#Description{
+    height: 97.9%;
+    width: fit-content;
+    border-radius: 6px;
+    border: rgba(0, 0, 0, 0.704) solid 3px;
+    background: #c9a792dd;
+    padding: 0px 30px;
+}
+
+.right-panel{
+    width: 75%;
+    gap: 2%;
+    align-items: start;
+}
+
+.inner-panel{
+    width: 100%;
+    gap: 1%;
+    justify-content: center;
+}
+
+.top-inner-panel{
+    width: 100%;
+    gap: 1%;
+}
+
+ul, ol{
+    padding-right: 30px;
+}
+
+
+
+
