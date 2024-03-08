@@ -20,9 +20,9 @@
 .panel-element:hover{
     transition: ease 0.5s;
     opacity: 100%;
-    box-shadow: 10px 10px 10px -5px rgba(0,0,0,0.5);
-    -webkit-box-shadow: 10px 10px 10px -5px rgba(0,0,0,0.5);
-    -moz-box-shadow: 10px 10px 10px -5px rgba(0,0,0,0.5);
+    box-shadow: 0px 15px 10px 0px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0px 15px 10px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 15px 10px 0px rgba(0,0,0,0.5);
 }
 
 .panel-selected{
@@ -30,9 +30,9 @@
     background: #c9a792;
     border-radius: 6px;
     opacity: 100%;
-    box-shadow: 10px 10px 10px -5px rgba(0,0,0,0.5);
-    -webkit-box-shadow: 10px 10px 10px -5px rgba(0,0,0,0.5);
-    -moz-box-shadow: 10px 10px 10px -5px rgba(0,0,0,0.5);
+    box-shadow: 0px 15px 10px 0px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0px 15px 10px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 15px 10px 0px rgba(0,0,0,0.5);
 }
 
 .text2{
