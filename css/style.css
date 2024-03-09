@@ -122,6 +122,10 @@ h3{
     text-align: center;
 }
 
+.underline{
+    text-decoration: underline;
+}
+
 .flex, .flex-center, .flex-space, .flex-column{
     display: flex;
 }
